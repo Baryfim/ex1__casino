@@ -1,0 +1,182 @@
+.HeaderBlock {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #111317;
+}
+
+
+.HeaderInner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderBlock__StocksAndLang {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    gap: 25px;
+}
+
+.StocksBtn {
+    width: 120px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 70px;
+    background: #FD3433; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.LangSelector {
+    background: none;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.LogotypeItem {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.LogotypeItem h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.LogotypeItem span {
+    margin-bottom: 4px;
+    margin-left: 2px;
+    color: #FD3433;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.UserInfoBlock {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Profile,
+.NotificationsBlock {
+    width: 65px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #656565; 
+}
+
+.Profile img,
+.NotificationsBlock img {
+    width: 20px;
+}
+
+.UsernameField {
+    padding: 23px;
+    border-right: 1px solid #656565;
+    border-left: 1px solid #656565; 
+    color: #ADADAD;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+}
+
+.BalanceBlock {
+    background: none;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 20px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.BalanceBlock .InteractionWithTheBalanceSheet{
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    background: linear-gradient(164deg, #282C35 3.49%, #352828 59.58%);
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    transition: .2s ease;
+}
+
+.InteractionWithTheBalanceSheet button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #FD3433;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InteractionWithTheBalanceSheet::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -13px;
+    width: 20px;
+    height: 20px;
+    background-color: #282C35;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.BalanceBlock span {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.UserInfoBlock,
+.HeaderBlock__StocksAndLang {
+    width: 35%;
+}
+
+.LogotypeItem {
+    width: 30%;
+}

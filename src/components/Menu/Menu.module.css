@@ -1,0 +1,36 @@
+.MenuNav__Item {
+    padding: 7px 12px;
+    border-radius: 20px;
+    width: max-content;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 13px;
+    transition: .2s;
+    margin-bottom: 15px;
+}
+
+.MenuNav__Item img {
+    width: 20px;
+    height: 20px;
+}
+
+.MenuNav__Item:hover {
+    background-color: #bb2d2d;
+}
+
+
+.MenuNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 45px;
+    width: 15%;
+}

@@ -1,0 +1,72 @@
+.TopGameBlock {
+    width: 85%;
+    margin-top: 50px;
+}
+
+.TopGameBlock h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+}
+
+
+.CardBlock {
+    position: relative;
+    width: 250px;
+    height: 450px; 
+    border-radius: 40px;
+    background: linear-gradient(164deg, #282C35 3.49%, #352828 59.58%);
+    transition: .2s ease;
+}
+
+.CardBlock h1 {
+    padding: 30px 0 0 30px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.CardBlock p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    margin-left:30px;
+    margin-right: 25px;
+}
+
+.CardBlock img {
+    position: absolute;
+    width: 160px;
+    height: 160px; 
+    bottom: 20px;
+    right: 20px;
+    transition: .2s ease;
+}
+
+.CardBlock:hover img{
+    width: 170px;
+    height: 170px; 
+}
+
+.CardsGamesBlock {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-top: 42px;
+}
+
+
+.CardsGamesBlock {
+    border-radius: 40px;
+}
+
+
+a {
+    text-decoration: none;
+}

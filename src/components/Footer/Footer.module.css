@@ -1,0 +1,90 @@
+.FooterBlock {
+    height: 300px;
+    background-color: #131418;
+    margin-top: 85px;
+}
+
+.footerInner {
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogotypeAndInfoBlock p{
+    width: 300px;
+    color: #6F6F6F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.LogotypeItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.LogotypeItem h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.LogotypeItem span {
+    margin-bottom: 4px;
+    margin-left: 2px;
+    color: #FD3433;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.InfoBlocks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.InfoBlock {
+    width: max-content;
+}
+
+.InfoBlock .NameGroup {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.Links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Links a {
+    color: #8C8C8C;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    transition: .2s ease;
+}
+
+.Links a:hover {
+    color: #ececec;
+}
